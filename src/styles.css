@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del título */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Estilos del buscador */
+  input {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  button {
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4e97b4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  /* Estilos del grid */
+  .grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  /* Estilos de los GIFs */
+  .gif {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Espacio de relleno alrededor de las imágenes */
+    box-sizing: border-box; /* Incluir el relleno en el tamaño total del contenedor */
+  }
+
+  
+  .gif img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .gif-name {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  h3 {
+    margin-left: 10px;
+  }
+  
